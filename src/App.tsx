@@ -1,23 +1,23 @@
-import { useState } from "react";
+import Footer from "./Footer";
+import { Hero } from "./Hero";
+import { SectionEight } from "./SectionEight";
+import { SectionFour } from "./SectionFour";
+import { SectionSix } from "./SectionSix";
+import { SectionThree } from "./SectionThree";
+import { SectionTwo } from "./SectionTwo";
 
 function App() {
-  const [count, setCount] = useState(0);
+  
 
   return (
     <>
-      <div></div>
-      <h1>Vite + React</h1>
-      <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
-        </button>
-        <p>
-          Edit <code>src/App.tsx</code> and save to test HMR
-        </p>
-      </div>
-      <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
-      </p>
+      <Hero />
+      <SectionTwo />
+      <SectionThree />
+      <SectionFour />
+      <SectionSix />
+      <SectionEight />
+      <Footer />
     </>
   );
 }
