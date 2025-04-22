@@ -26,7 +26,7 @@ export const Hero = () => {
             </p>
             <div className="space-y-2">
               <Button />
-              <p className="text-left px-5 text-[#9CA2C5] text-xs lg:text-sm italic ">
+              <p className="md:text-left px-0 md:px-5 text-[#9CA2C5] text-xs lg:text-sm italic ">
                 Talk with our team
               </p>
             </div>
