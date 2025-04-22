@@ -1,16 +1,14 @@
 import Footer from "./Footer";
 import { Hero } from "./Hero";
-import { SectionEight } from "./SectionEight";
-import SectionFive from "./SectionFive";
-import { SectionFour } from "./SectionFour";
-import { SectionSeven } from "./SectionSeven";
-import { SectionSix } from "./SectionSix";
-import { SectionThree } from "./SectionThree";
-import { SectionTwo } from "./SectionTwo";
+import { SectionEight } from "./components/sections/SectionEight";
+import SectionFive from "./components/sections/SectionFive";
+import { SectionFour } from "./components/sections/SectionFour";
+import { SectionSeven } from "./components/sections/SectionSeven";
+import { SectionSix } from "./components/sections/SectionSix";
+import { SectionThree } from "./components/sections/SectionThree";
+import { SectionTwo } from "./components/sections/SectionTwo";
 
 function App() {
-  
-
   return (
     <>
       <Hero />
