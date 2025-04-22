@@ -29,7 +29,7 @@ const carouselData = [
     image: imageThree,
     name: "Property Managers",
     description:
-      "Replace easily copied fobs and unreliable fingerprint scanners with encrypted QR codes. Audit trails for every entry/exit.",
+      "Replace easily copied fobs and unreliable fingerprint scanners with encrypted QR codes. Audit trails for every entry/exit. ",
   },
   {
     image: image,
@@ -39,18 +39,6 @@ const carouselData = [
   },
   {
     image: imageTwo,
-    name: "Co-Working Spaces",
-    description:
-      "Automate access for 500+ members with revocable QR passes. Instant lockdown when members cancel.",
-  },
-  {
-    image: imageThree,
-    name: "Co-Working Spaces",
-    description:
-      "Automate access for 500+ members with revocable QR passes. Instant lockdown when members cancel.",
-  },
-  {
-    image: image,
     name: "Co-Working Spaces",
     description:
       "Automate access for 500+ members with revocable QR passes. Instant lockdown when members cancel.",
@@ -87,6 +75,7 @@ const SectionFive = () => {
             spaceBetween={30}
             slidesPerView="auto"
             pagination={{ clickable: true }}
+            loop={true}
             navigation={{
               prevEl: "#section5-prev",
               nextEl: "#section5-next",

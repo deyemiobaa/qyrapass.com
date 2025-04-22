@@ -10,7 +10,7 @@ export const SectionEight = () => {
         <p className="text-sm text-center  md:text-sm xl:text-lg/[28px] text-white lg:max-w-lg">
           See how QyraPass works in 5 minutes.
         </p>
-        <button className="flex gap-2 items-center text-[#007BFF] max-w-[180px] bg-white rounded-full px-3 md:px-5 py-2 md:py-3">
+        <button className="flex gap-2 items-center text-[#007BFF] max-w-[180px] bg-white rounded-full px-3 md:px-5 py-2 md:py-3 cursor-pointer">
           <p className="text-xs md:text-sm lg:text-lg">Get a Demo</p>
           <CircleArrowRight color="rgba(0, 123, 255, 1)" size={18} />
         </button>

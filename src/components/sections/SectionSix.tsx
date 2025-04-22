@@ -23,7 +23,7 @@ export const SectionSix = () => {
           <div className="space-y-5">
             <div>
               <div className="flex gap-2 items-center ">
-                <img src={one} alt="" />{" "}
+                <img src={one} alt="" className="w-[28px]" />{" "}
                 <div className="w-full   h-[1px] border border-[#1B1F3B]/10"></div>
               </div>
             </div>
@@ -39,7 +39,7 @@ export const SectionSix = () => {
           <div className="space-y-5">
             <div>
               <div className="flex gap-2 items-center">
-                <img src={two} alt="" />{" "}
+                <img src={two} alt="" className="w-[28px]" />{" "}
                 <div className="w-full   h-[1px] border border-[#1B1F3B]/10"></div>
               </div>
             </div>
@@ -55,7 +55,7 @@ export const SectionSix = () => {
           <div className="space-y-5">
             <div>
               <div className="flex gap-2 items-center">
-                <img src={three} alt="" />{" "}
+                <img src={three} alt="" className="w-[28px]" />{" "}
                 <div className="w-full   h-[1px] border border-[#1B1F3B]/10"></div>
               </div>
             </div>

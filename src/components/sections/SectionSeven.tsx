@@ -55,7 +55,7 @@ export const SectionSeven = () => (
                 {item.question}
               </span>
               <ChevronDownIcon
-                className="text-gray-600 ml-4 h-5 w-5 transition-transform duration-300 group-data-[state=open]:rotate-180"
+                className="text-gray-600 ml-4 h-5 w-5 transition-transform duration-300 group-data-[state=open]:rotate-180 cursor-pointer"
                 aria-hidden
               />
             </Accordion.Trigger>
