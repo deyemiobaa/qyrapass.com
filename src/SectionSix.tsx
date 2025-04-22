@@ -23,7 +23,7 @@ export const SectionSix = () => {
             <div>
               <div className="flex gap-2 items-center ">
                 <img src={one} alt="" />{" "}
-                <div className="w-full   h-[1px] border border-[#1B1F3B]"></div>
+                <div className="w-full   h-[1px] border border-[#1B1F3B]/50"></div>
               </div>
             </div>
             <Card header="Scan"  content="Member shows their unique QR code to be scanned" imageSrc ={imageOne} bgColor="bg-[#F5FCFF]" headerColor="text-[#1B1F3B]" color="text-[#333858]"/>
@@ -32,7 +32,7 @@ export const SectionSix = () => {
             <div>
               <div className="flex gap-2 items-center">
                 <img src={two} alt="" />{" "}
-                <div className="w-full   h-[1px] border border-[#1B1F3B]"></div>
+                <div className="w-full   h-[1px] border border-[#1B1F3B]/50"></div>
               </div>
             </div>
             <Card header="Verify"  content="Our system checks permissions in milliseconds" imageSrc ={imageTwo} bgColor="bg-[#007BFF]" headerColor="text-[#ffffff]" color="text-[#DBF1FF]"/>
@@ -41,7 +41,7 @@ export const SectionSix = () => {
             <div>
               <div className="flex gap-2 items-center">
                 <img src={three} alt="" />{" "}
-                <div className="w-full   h-[1px] border border-[#1B1F3B]"></div>
+                <div className="w-full   h-[1px] border border-[#1B1F3B]/50"></div>
               </div>
             </div>
             <Card header="Access"  content="Door unlocks - entry logged automatically" imageSrc ={imageThree} bgColor="bg-[#1B1F3B]" headerColor="text-[#ffffff]" color="text-[#DBF1FF]"/>

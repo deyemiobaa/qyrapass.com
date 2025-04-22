@@ -31,7 +31,7 @@ export const Hero = () => {
       <div className="w-full absolute top-0 bottom-0 -mt-5 lg:-mt-5 xl:mt-23 lg:top-[824px] lg:bottom-[45px] ">
         <p className="text-center text-[#9CA2C5] text-sm/[24px] tracking-wider hidden lg:block ">ACCESS SIMPLIFIED! NO KEYS, NO CARDS, NO FINGERPRINTS — JUST SCAN</p>
       </div>
-      <p className=" p-1 text-center text-[#9CA2C5] text-xs md:text-sm/[24px] tracking-wider block lg:hidden ">ACCESS SIMPLIFIED! NO KEYS, NO CARDS, NO FINGERPRINTS — JUST SCAN</p>
+      <p className=" p-5 text-center text-[#9CA2C5] text-xs md:text-sm/[24px] tracking-wider block lg:hidden ">ACCESS SIMPLIFIED! NO KEYS, NO CARDS, NO FINGERPRINTS — JUST SCAN</p>
       <div className="w-full absolute -bottom-8  md:-bottom-10  -z-10  ">
         <img 
           src={curve} 
