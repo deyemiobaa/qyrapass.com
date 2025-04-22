@@ -21,7 +21,7 @@ export const Hero = () => {
               Seamless Entry for Modern Spaces
             </h1>
             <p className="font-normal text-sm md:text-lg text-center lg:text-left lg:text-sm xl:text-lg/[28px] text-white lg:max-w-xl ">
-              Tired of broken fingerprint machines and missing Keys/cards?
+              Tired of broken fingerprint machines and missing keys/cards?
               QyraPass replaces both with a simple QR scan from any phone.
             </p>
             <div className="space-y-2">

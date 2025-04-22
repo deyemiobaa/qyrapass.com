@@ -1,21 +1,20 @@
 @import "tailwindcss";
 
 body {
-    font-family: 'Poppins', sans-serif;
-  }
+  font-family: "Poppins", sans-serif;
+}
 
-  
-    .swiper-slide-custom {
-      transition: transform 0.3s ease;
-    }
-    
-    .swiper-pagination-bullet {
-      background: #64748b !important;
-      opacity: 1 !important;
-      width: 10px;
-      height: 10px;
-    }
-  
-    .swiper-pagination-bullet-active {
-      background: #ffffff !important;
-    }
+.swiper-slide-custom {
+  transition: transform 0.3s ease;
+}
+
+.swiper-pagination-bullet {
+  background: #64748b !important;
+  opacity: 1 !important;
+  width: 10px;
+  height: 10px;
+}
+
+.swiper-pagination-bullet-active {
+  background: #ffffff !important;
+}

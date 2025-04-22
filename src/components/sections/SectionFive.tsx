@@ -37,12 +37,6 @@ const carouselData = [
     description:
       "Replace easily copied fobs and unreliable fingerprint scanners with encrypted QR codes. Audit trails for every entry/exit.",
   },
-  {
-    image: imageTwo,
-    name: "Co-Working Spaces",
-    description:
-      "Automate access for 500+ members with revocable QR passes. Instant lockdown when members cancel.",
-  },
 ];
 
 const SectionFive = () => {
