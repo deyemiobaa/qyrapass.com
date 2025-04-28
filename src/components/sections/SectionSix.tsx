@@ -29,7 +29,7 @@ export const SectionSix = () => {
             </div>
             <Card
               header="Scan"
-              content="Member shows their unique QR code to be scanned"
+              content="Members scan your unique QR code on entry"
               imageSrc={imageOne}
               bgColor="bg-[#F5FCFF]"
               headerColor="text-[#1B1F3B]"
@@ -61,7 +61,7 @@ export const SectionSix = () => {
             </div>
             <Card
               header="Access"
-              content="Door unlocks - entry logged automatically"
+              content="Access is granted - entry logged automatically"
               imageSrc={imageThree}
               bgColor="bg-[#1B1F3B]"
               headerColor="text-[#ffffff]"

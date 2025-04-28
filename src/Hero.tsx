@@ -10,7 +10,7 @@ export const Hero = () => {
         <div className="flex justify-between items-center text-red-500 px-5 lg:px-10 xl:px-20  py-5 ">
           <img
             src={logo}
-            alt=""
+            alt="qyrapass logo"
             className="w-[100px] md:w-[120px] lg:w-[150px]"
           />
           <Button />

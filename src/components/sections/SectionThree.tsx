@@ -15,7 +15,7 @@ export const SectionThree = () => {
               Manage who enters your space with just a QR code.
             </p>
             <p className=" text-sm text-center lg:text-left md:text-sm xl:text-lg/[28px] text-[#333858] lg:max-w-lg">
-              Revoke access anytime—from your phone.
+              Revoke access anytime—from a simple, and easy-to-use platform.
             </p>
           </div>
         </div>
@@ -28,7 +28,7 @@ export const SectionThree = () => {
                 className="lg:w-[40px] lg:h-[40px] w-[30px] h-[30px]"
               />
               <p className="font-semibold text-sm md:text-lg">
-                Scan a QR code from any smartphone
+                Manage your members access from one dashboard
               </p>
             </div>
             <div className="flex items-center gap-3 bg-[#F1F5F9] px-3 lg:px-6 py-3 rounded-4xl w-full">
@@ -38,7 +38,7 @@ export const SectionThree = () => {
                 className="lg:w-[40px] lg:h-[40px] w-[30px] h-[30px]"
               />
               <p className="font-semibold text-sm md:text-lg">
-                Scan a QR code from any smartphone
+                Get a personalized QR code
               </p>
             </div>
             <div className="flex items-center gap-3 bg-[#F1F5F9] px-3 lg:px-6 py-3 rounded-4xl w-full">
@@ -48,7 +48,7 @@ export const SectionThree = () => {
                 className="lg:w-[40px] lg:h-[40px] w-[30px] h-[30px]"
               />
               <p className="font-semibold text-sm md:text-lg">
-                Scan a QR code from any smartphone
+                Members scan the QR code from any smartphone
               </p>
             </div>
             <Button />

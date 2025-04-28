@@ -14,7 +14,7 @@ const Footer = () => {
               className="w-[100px] md:w-[120px] lg:w-[150px]"
             />
             <p className="text-sm font-medium text-[#FFFFFF66]/40">
-              Copyright © 2025, Qyra Pass
+              Copyright © 2025, QyraPass
             </p>
           </div>
         </div>
