@@ -1,9 +1,9 @@
-import { Button } from "./components/Button";
-import curve from "./assets/curve1.png";
-import herobg from "./assets/herobg.png";
-import logo from "./assets/logo.png";
+import { Button } from "./Button";
+import curve from "../assets/curve1.png";
+import herobg from "../assets/herobg.png";
+import logo from "../assets/logo.png";
 
-export const Hero = () => {
+export default function Hero() {
   return (
     <div className="bg-[#1B1F3B] relative ">
       <div className="space-y-20 lg:space-x-5">
@@ -56,4 +56,4 @@ export const Hero = () => {
       </div>
     </div>
   );
-};
+}

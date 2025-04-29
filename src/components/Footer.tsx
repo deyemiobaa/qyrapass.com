@@ -1,4 +1,4 @@
-import logo from "./assets/logo2.png";
+import logo from "../assets/logo2.png";
 
 const Footer = () => {
   return (
@@ -13,9 +13,11 @@ const Footer = () => {
               alt=""
               className="w-[100px] md:w-[120px] lg:w-[150px]"
             />
-            <p className="text-sm font-medium text-[#FFFFFF66]/40">
-              Copyright © 2025, QyraPass
-            </p>
+            <div className="text-sm font-medium text-[#FFFFFF66]/40 flex gap-3">
+              <p>Copyright © {new Date().getFullYear()}, QyraPass</p>
+
+              <a href="/privacy-policy">Privacy Policy</a>
+            </div>
           </div>
         </div>
       </div>

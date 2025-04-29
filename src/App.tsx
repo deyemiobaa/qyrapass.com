@@ -1,26 +1,21 @@
-import Footer from "./Footer";
-import { Hero } from "./Hero";
-import { SectionEight } from "./components/sections/SectionEight";
-import SectionFive from "./components/sections/SectionFive";
-import { SectionFour } from "./components/sections/SectionFour";
-// import { SectionSeven } from "./components/sections/SectionSeven";
-import { SectionSix } from "./components/sections/SectionSix";
-import { SectionThree } from "./components/sections/SectionThree";
-import { SectionTwo } from "./components/sections/SectionTwo";
+import { Route, BrowserRouter as Router, Routes } from "react-router-dom";
+
+import Home from "./pages/Home";
+import PrivacyPolicy from "./pages/PrivacyPolicy";
+import RequestAccountDeletion from "./pages/RequestAccountDeletion";
 
 function App() {
   return (
-    <>
-      <Hero />
-      <SectionTwo />
-      <SectionThree />
-      <SectionFour />
-      <SectionFive />
-      <SectionSix />
-      {/* <SectionSeven /> */}
-      <SectionEight />
-      <Footer />
-    </>
+    <Router>
+      <Routes>
+        <Route path="/" index element={<Home />} />
+        <Route path="/privacy-policy" element={<PrivacyPolicy />} />
+        <Route
+          path="/request-account-deletion"
+          element={<RequestAccountDeletion />}
+        />
+      </Routes>
+    </Router>
   );
 }
 
